@@ -76,7 +76,7 @@ pip install -r requirements.txt
 3. Make the script executable (Linux/macOS):
 
 ```bash
-chmod +x detect_decode.py
+chmod +x hashcrackerx.py
 ```
 
 ---
