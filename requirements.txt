@@ -1,0 +1,7 @@
+# core runtime
+pyfiglet==0.8.post1
+termcolor==1.1.0
+
+# optional (recommended)
+colorama==0.4.6        
+base58==2.1.1 
