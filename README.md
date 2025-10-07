@@ -1,6 +1,6 @@
-# HashCrackerX
+# HashCrackX
 
-**HashCrackerX**  — a lightweight CLI tool to *detect* and *decode* common encodings, ciphers and obfuscation used in CTFs and pentesting. Developed by **Zencrypt**.
+**HashCrackX**  — a lightweight CLI tool to *detect* and *decode* common encodings, ciphers and obfuscation used in CTFs and pentesting. Developed by **Zencrypt**.
 
 ---
 
@@ -50,7 +50,7 @@ base58==2.1.1
 
 ## Files in this repository
 
-* `hashcrackerx.py — the main CLI tool (single-file).
+* `hashcrackx.py — the main CLI tool (single-file).
 * `requirements.txt` — Python package list for easy installation.
 * `.gitignore` — recommended file to ignore `__pycache__`, `*.pyc`, virtualenv folders, etc.
 * `README.md` — this document.
@@ -86,15 +86,15 @@ chmod +x hashcrackerx.py
 Run the tool and paste the encoded/obfuscated string when prompted:
 
 ```bash
-python hashcrackerx.py
+python hashcrackx.py
 # or if executable
-./hashcrackerx.py
+./hashcrackx.py
 ```
 
 Example session:
 
 ```
-$ python hashcrackerx.py
+$ python hashcrackx.py
 🔹 Paste the encoded/obfuscated text: Uryyb Jbeyq
 
 Likely methods (top 3):
